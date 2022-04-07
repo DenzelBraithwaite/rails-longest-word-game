@@ -1,0 +1,36 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+ // Defining a variable
+ $light_gray: rgb(128, 128, 128);
+ $tile_blue: rgb(52, 152, 220);
+
+.container  {
+  width: 80%;
+  text-align: center;
+}
+
+
+.letter {
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  // border-radius: 4px;
+  background-color: $tile_blue;
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+li {
+  display: inline;
+}
