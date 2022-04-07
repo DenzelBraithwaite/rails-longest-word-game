@@ -1,4 +1,8 @@
 class GamesController < ApplicationController
+  def home
+
+  end
+
   def new
     alphabet = ("a".."z").to_a
     @letters = []
@@ -6,5 +10,6 @@ class GamesController < ApplicationController
   end
 
   def score
+    raise
   end
 end

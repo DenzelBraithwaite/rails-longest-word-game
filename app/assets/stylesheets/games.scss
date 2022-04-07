@@ -9,11 +9,46 @@
  $light_gray: rgb(128, 128, 128);
  $tile_blue: rgb(52, 152, 220);
 
-.container  {
-  width: 80%;
-  text-align: center;
-}
+ .home-container  {
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   text-align: center;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   color: red;
+  }
 
+  #start-button {
+    width: 160px;
+    padding: 32px;
+    letter-spacing: 8px;
+    border-radius: 4px;
+    background-color: $tile_blue;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    text-un
+    &:visited {
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+    &:link {
+      text-decoration: none;
+    }
+    &:active {
+      text-decoration: none;
+    }
+  }
+
+  .container  {
+   width: 80%;
+   height: 100vh;
+   text-align: center;
+ }
 
 .letter {
   color: white;
